@@ -1,26 +1,29 @@
-# Install WordPresss and Configure Pluggins
+# Instalar WordPresss y Configurar Pluggins
 
-## WordPress and dependencies
-- This docker-compose install 
+## WordPress y dependencias
+- Instalación con docker-compose 
 
-## Users and Passwords to change in docker-compose.yml file
+## Usuarios y Contraseñas que se deben cambiar en el archivo docker-compose.yml
 - MYSQL_ROOT_PASSWORD: password
 - MYSQL_PASSWORD: wordpress
 
 
-### Run locally using docker
+### Correr localmente usando docker
 
-1. copy docker-compose.yml to your Install directory
+1. Clonar el repositorio al directorio local de instalación
+git clone https://github.com/rcaceres1966/wpress.git
 
-2. Run the containers
+2. Para correr los contenedores
 
+cd wpress
 docker compose up
 
-3. Stop the instances
+3. Para detener los contenedores
 
 docker compose down
 
-# Step 1) Run WordPresss and Configure
+
+# Paso 1) Correr WordPress y Configurar
 
 - http://localhost:8000/
 - Configure Site Title e.g. WCMX
@@ -31,40 +34,40 @@ docker compose down
 
 ![WordPress-Screen01](imgs/01WP_Install.png)
 
-# Step 2)Login WordPresss 
+# Paso 2)Login WordPresss 
 
 - Press Log In button
 
 ![WordPress-Screen02](imgs/02WP_Install.png)
 
-# Step 3) Login WordPresss with Username and Password
+# Paso 3) Login WordPresss con Username y Password
 
 - Login with Username admin
 - Password 123456 
 
 ![WordPress-Screen03](imgs/03WP_Install.png)
 
-# Step 4) Select Pluggins Menu
+# Paso 4) Seleccionar Menu Pluggins
 
 - Select Option Pluggins
 
 ![WordPress-Screen04](imgs/04WP_DeletePluggins.png)
 
-# Step 5) Add Pluggins
+# Paso 5) Agregar Pluggins
 
 - Add Pluggin Guttentor 
 - Select Guttentor pluggin and press Install Now
 
 ![WordPress-Screen05](imgs/05WP_AddPluggins.png)
 
-# Step 6) Add Pluggins
+# Paso 6) Agregar Pluggins
 
 - Add Pluggin Classic Editor
 - Select Button Activate
 
 ![WordPress-Screen06](imgs/06WP_AddPluggins.png)
 
-# Step 6) Add Pluggins
+# Paso 6) Agregar Pluggins
 
 - Add Pluggin Addons for Gutenberg
 - Select Instal Now
@@ -73,7 +76,7 @@ docker compose down
 ![WordPress-Screen07_2](imgs/07_2WP_AddPluggins.png)
 
 
-# Step 7) Configure Block editor
+# Paso 7) Configurar Block editor
 
 - Select Settings
 - Choose Block editor
@@ -81,7 +84,7 @@ docker compose down
 
 ![WordPress-Screen07_3](imgs/07_3WP_AddPluggins.png)
 
-# Step 8) Add a Theme
+# Paso 8) Agregar un Tema
 
 - Select Appereance Menu
 - Choose Add New Theme
@@ -90,7 +93,7 @@ docker compose down
 
 ![WordPress-Screen07](imgs/07WP_AddPluggins.png)
 
-# Step 8) Import a Page
+# Paso 8) Importar una Pagina
 
 - Menu Tools
 - Select Upload file and import
@@ -99,14 +102,14 @@ docker compose down
 
 ![WordPress-Screen08](imgs/08Import.png)
 
-# Step 9) Edit Post
+# Paso 9) Editar un Post
 
-- This import the example page but not the media (images)
+- Esto importa el ejemplo pero no la media (imagenes)
 
 ![WordPress-Screen09](imgs/09Import.png)
 
 
-# Step 10) Edit Post
+# Paso 10) Editar Post
 
 - Select Posts Menu
 - Select Test 2 Post
@@ -114,7 +117,7 @@ docker compose down
 ![WordPress-Screen10](imgs/10EditPosts.png)
 
 
-# Step 11) Add Media to Post 2
+# Paso 11) Agregar Media a Post 2
 
 - Select Post and Button Edit Image
 ![WordPress-Screen11](imgs/11WP_AddPhotos.png)
