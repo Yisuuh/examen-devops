@@ -29,40 +29,40 @@ docker compose down
 - Confirm Password checked
 - Press Install Button
 
-![WordPress-Screen01](01WP_Install.png)
+![WordPress-Screen01](imgs/01WP_Install.png)
 
 # Step 2)Login WordPresss 
 
 - Press Log In button
 
-![WordPress-Screen02](02WP_Install.png)
+![WordPress-Screen02](imgs/02WP_Install.png)
 
 # Step 3) Login WordPresss with Username and Password
 
 - Login with Username admin
 - Password 123456 
 
-![WordPress-Screen03](03WP_Install.png)
+![WordPress-Screen03](imgs/03WP_Install.png)
 
 # Step 4) Select Pluggins Menu
 
 - Select Option Pluggins
 
-![WordPress-Screen04](04WP_DeletePluggins.png)
+![WordPress-Screen04](imgs/04WP_DeletePluggins.png)
 
 # Step 5) Add Pluggins
 
 - Add Pluggin Guttentor 
 - Select Guttentor pluggin and press Install Now
 
-![WordPress-Screen05](05WP_AddPluggins.png)
+![WordPress-Screen05](imgs/05WP_AddPluggins.png)
 
 # Step 6) Add Pluggins
 
 - Add Pluggin Classic Editor
 - Select Button Activate
 
-![WordPress-Screen06](06WP_AddPluggins.png)
+![WordPress-Screen06](imgs/06WP_AddPluggins.png)
 
 # Step 6) Add Pluggins
 
@@ -70,7 +70,7 @@ docker compose down
 - Select Instal Now
 - Select Button Activate
 
-![WordPress-Screen07_2](07_2WP_AddPluggins.png)
+![WordPress-Screen07_2](imgs/07_2WP_AddPluggins.png)
 
 
 # Step 7) Configure Block editor
@@ -79,7 +79,7 @@ docker compose down
 - Choose Block editor
 - Button Save Changes
 
-![WordPress-Screen07_3](07_3WP_AddPluggins.png)
+![WordPress-Screen07_3](imgs/07_3WP_AddPluggins.png)
 
 # Step 8) Add a Theme
 
@@ -88,7 +88,7 @@ docker compose down
 - Search Ample Bussiness Epic
 - Add Theme
 
-![WordPress-Screen07](07WP_AddPluggins.png)
+![WordPress-Screen07](imgs/07WP_AddPluggins.png)
 
 # Step 8) Import a Page
 
@@ -97,13 +97,13 @@ docker compose down
 - Choose wcmx.WordPress.2020-08-10.xml file
 
 
-![WordPress-Screen08](08Import.png)
+![WordPress-Screen08](imgs/08Import.png)
 
 # Step 9) Edit Post
 
 - This import the example page but not the media (images)
 
-![WordPress-Screen09](09Import.png)
+![WordPress-Screen09](imgs/09Import.png)
 
 
 # Step 10) Edit Post
@@ -111,19 +111,19 @@ docker compose down
 - Select Posts Menu
 - Select Test 2 Post
 
-![WordPress-Screen10](10EditPosts.png)
+![WordPress-Screen10](imgs/10EditPosts.png)
 
 
 # Step 11) Add Media to Post 2
 
 - Select Post and Button Edit Image
-![WordPress-Screen11](11WP_AddPhotos.png)
+![WordPress-Screen11](imgs/11WP_AddPhotos.png)
 
 - Upload images carrusel01-1.jpg carrusel02.jpg carrusel03.jpg
-![WordPress-Screen12](12WP_AddPhotos.png)
+![WordPress-Screen12](imgs/12WP_AddPhotos.png)
 
 - Select image for other post
-![WordPress-Screen13](13WP_AddPhotos.png)
+![WordPress-Screen13](imgs/13WP_AddPhotos.png)
 
 
 
