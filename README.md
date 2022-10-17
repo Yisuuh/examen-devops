@@ -15,12 +15,13 @@ git clone https://github.com/rcaceres1966/wpress.git
 
 2. Para correr los contenedores
 
-cd wpress
-docker compose up
+$cd wpress
+
+$docker compose up
 
 3. Para detener los contenedores
 
-docker compose down
+$docker compose down
 
 
 # Paso 1) Correr WordPress y Configurar
