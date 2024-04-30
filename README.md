@@ -12,21 +12,21 @@
 
 1. Clonar el repositorio al directorio local de instalación
    
-git clone https://github.com/rcaceres1966/wpress.git
+`$ git clone https://github.com/rcaceres1966/wpress.git`
 
 3. Para crear el contenedor por primera vez
 
-$ cd wpress
+`$ cd wpress`
 
-$ docker compose up
+`$ docker compose up`
 
 3. Para detener los contenedores
 
-$ docker compose stop
+`$ docker compose stop`
 
 4. Para inciar un contenedor ya creado
 
-$ docker compose start
+`$ docker compose start`
 
 
 # Paso 1) Correr WordPress y Configurar
